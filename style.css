@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: lightslategray;
+}
+
+#menu h3{
+    display: flex;
+    float: left;
+    margin: 2% 3%;
+}
+
+#Menu ul li{
+    display: inline-block;
+    margin: 2% 5%;
+    color: beige;
+}
+
+#Menu ul li:hover{
+    color: lightgray;
+}
+
+#Menu ul{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer; 
+}
+
+.section{
+    background-image: url(Best002.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 70%;
+    
+}
+
+#input{
+    background-color: black;
+    opacity: 0.4;
+    margin: -500px 0 150px 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section #input h1{
+    text-align: center;
+    font-size: 50px;
+    color: beige;
+    padding: 20px;
+}
+
+.section #input p{
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+    padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: lightslategray;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.footer-text:hover {
+    color: rgb(224, 198, 198);
+}
+
